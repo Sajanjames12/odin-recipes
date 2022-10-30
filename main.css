@@ -1,0 +1,22 @@
+*{
+    color: blueviolet;
+}
+
+
+.severe-alert{
+    color: red;
+    background-color: black;
+}
+
+.moderate-alert{
+    color:rgb(0, 183, 255);
+    background-color: green;
+}
+
+ul {
+    background-color:beige;
+}
+
+ol{
+    background-color:antiquewhite;
+}
