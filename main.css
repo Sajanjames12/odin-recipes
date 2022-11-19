@@ -4,13 +4,20 @@
 
 
 .severe-alert{
-    color: red;
-    background-color: black;
+    color: rgb(233, 143, 143);
+    background-color: rgb(197, 224, 100);
+    border: 0.5em;
+    border-color: rgb(123, 187, 59);
+    border-style:groove;
 }
 
 .moderate-alert{
     color:rgb(0, 183, 255);
-    background-color: green;
+    background-color: rgb(200, 174, 233);
+    border: 0.5em;
+    border-color: rgb(221, 69, 115);
+    border-style:groove;
+}
 }
 
 ul {
@@ -19,4 +26,17 @@ ul {
 
 ol{
     background-color:antiquewhite;
+}
+
+.first{
+ background-color: rgb(246, 246, 35);
+}
+.second{
+    background-color:aquamarine;
+}
+.india-medieval{
+    text-align: center;
+    border-top: 2em;
+    border-style:groove;
+    border-color: aqua;
 }
