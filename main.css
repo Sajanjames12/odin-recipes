@@ -1,33 +1,52 @@
 *{
-    color: blueviolet;
+    color: rgb(43, 125, 226);
+    font-family: Georgia, 'Times New Roman', Times, serif
+    ;
+    letter-spacing: 2px;
+
 }
+
+.severe-alert{font-size:12px;}
 
 
 .severe-alert{
     color: rgb(233, 143, 143);
-    background-color: rgb(197, 224, 100);
+    background-color: rgb(198, 225, 102);
     border: 0.5em;
     border-color: rgb(123, 187, 59);
     border-style:groove;
 }
 
 .moderate-alert{
-    color:rgb(0, 183, 255);
-    background-color: rgb(200, 174, 233);
+    background-color: rgb(198, 225, 102);
     border: 0.5em;
-    border-color: rgb(221, 69, 115);
+    border-color: rgb(144, 193, 94);
     border-style:groove;
 }
+
+.severe-alert,.moderate-alert{
+    color: #d91212;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-ul {
-    background-color:beige;
+a:hover{
+    color: deepskyblue;
+}
+.alert a:hover{
+  color: #ff0000;
 }
 
 ol{
     background-color:antiquewhite;
 }
 
+ul{
+    line-height: 1.6;
+}
 .first{
  background-color: rgb(246, 246, 35);
 }
@@ -36,7 +55,16 @@ ol{
 }
 .india-medieval{
     text-align: center;
-    border-top: 2em;
+    border-top: 1em;
     border-style:groove;
     border-color: aqua;
+}
+.subsection.header{
+  color:#ff0000;
+}
+.subsection#preview{
+    color: black;
+}
+*{
+    background-color: rgb(249, 186, 186);
 }
