@@ -3,7 +3,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif
     ;
     letter-spacing: 2px;
-
 }
 
 .severe-alert{font-size:12px;}
@@ -38,10 +37,6 @@ a:hover{
 }
 .alert a:hover{
   color: #ff0000;
-}
-
-ol{
-    background-color:antiquewhite;
 }
 
 ul{
